@@ -1,0 +1,8 @@
+let numb1 = prompt("Введите  число : ", );
+function getDigitAmount(n) {
+    let c = 1;
+    while (( n /= 10)>=1)
+        c++;
+    return (c);
+}
+alert( getDigitAmount(numb1));
